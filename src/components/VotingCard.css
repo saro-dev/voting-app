@@ -1,0 +1,41 @@
+.VotingCard {
+    border: 2px solid #333;
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .VotingCard h2 {
+    margin: 0;
+  }
+  
+  .VotingCard p {
+    margin: 8px 0;
+  }
+  
+  .VotingCard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .VotingCard button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .VotingCard.voted {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: all 0.3s ease;
+  }
+  
+  .VotingCard.voting {
+    transform: scale(1.1);
+    transition: all 1s ease;
+  }
+  
